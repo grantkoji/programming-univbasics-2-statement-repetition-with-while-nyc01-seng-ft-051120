@@ -5,6 +5,6 @@ while count >= 0 do
   break if count == magic_exit_number
     puts "Happy New Year!"
   else
-  puts count
+  puts `${count}`
   count -= 1
 end
